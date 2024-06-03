@@ -1,10 +1,14 @@
 import './App.css'
-import Logo from '../src/spellingTree.png'
 
 function App() {
 
   return (
     <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
   )
 }
+
+export default App
