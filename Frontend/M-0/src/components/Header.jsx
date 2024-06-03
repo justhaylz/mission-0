@@ -1,11 +1,11 @@
-import './Header.modules.css'
-import Logo from '../src/spellingTree.png'
+import styles from '../components/Header.module.css';
+import Logo from '../assets/spellingTree.png';
 
 function Header() {
     return (
         <>
-        <div>
-        <img className={styles.logo} src={Logo} alt="logo-image" />
+        <div className={styles.container}>
+        <img className={styles.logo} src={Logo} alt="logo-img" />
         </div>
         </>
     )
