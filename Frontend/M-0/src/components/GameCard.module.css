@@ -1,0 +1,40 @@
+/** @format */
+
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.all {
+  display: grid;
+  place-items: center;
+}
+
+.btns {
+  justify-content: center;
+}
+
+.input {
+  justify-self: center;
+  width: 420px;
+}
+
+.btn1 {
+  width: 428px;
+  justify-self: center;
+}
+
+.btn2 {
+  width: 214px;
+}
+
+.btn3 {
+  width: 214px;
+}
+
+.btn4 {
+  width: 427px;
+}

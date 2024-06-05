@@ -1,24 +1,15 @@
-import styles from '../pages/Home.module.css';
-import Header from '../components/Header';
-import GameCard from '../components/GameCard';
-// import Footer from '../components/Footer';
+/** @format */
+import styles from "../pages/Home.module.css";
+import GameCard from "../components/GameCard";
 
 function Home() {
-
   return (
     <>
-    <div className={styles.container}>
-      <div className={styles.header}>
-        <Header /></div>
-      {/* <div className={styles.gameCard}>
-        <GameCard /> */}
-      {/* </div> */}
-      {/* <div className={styles.footer}>
-      {/* <Footer />  */}
-      {/* </div> */}
-    </div>
+      <div className={styles.container}>
+        <GameCard />
+      </div>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
