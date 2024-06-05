@@ -1,12 +1,12 @@
 /** @format */
 import styles from "../pages/Home.module.css";
-import GameCard from "../components/GameCard";
+import SpellingTree from "../components/SpellingTree";
 
 function Home() {
   return (
     <>
       <div className={styles.container}>
-        <GameCard />
+        <SpellingTree />
       </div>
     </>
   );
